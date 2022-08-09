@@ -23,4 +23,6 @@ user.Name = "John Doe"
 
 fmt.Printf("%+v\n", user)
 
+// &{ID:1709b84a-e322-ba08-4acb-e018eb39efa9 Name:John Doe}
+
 ```

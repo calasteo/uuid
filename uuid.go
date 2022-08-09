@@ -7,6 +7,10 @@ import (
 	"time"
 )
 
+func init() {
+	rand.Seed(time.Now().UnixNano())
+}
+
 func GenerateOrderedUUID() string {
 	now := time.Now().UTC().UnixNano()
 	timeStamp := fmt.Sprintf("%x\n", now)
